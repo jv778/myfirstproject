@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442148603779",
+    "firebase_url": "https://findaparttime-a1bb5.firebaseio.com",
+    "project_id": "findaparttime-a1bb5",
+    "storage_bucket": "findaparttime-a1bb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442148603779:android:58c0aa4f7ad6bbba5958b6",
+        "android_client_info": {
+          "package_name": "com.example.findaparttime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442148603779-2o4lu363rrp2jmfoplvkjbmtgu7fafk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findaparttime",
+            "certificate_hash": "28ebade6eb56020239b598e71471a25b1e8d71da"
+          }
+        },
+        {
+          "client_id": "442148603779-6kqc44eud2p5pcgagkmdbocctl8oeusd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsvqu5bzK8lMh0vix0O-KFBqTu_TqRk2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442148603779-6kqc44eud2p5pcgagkmdbocctl8oeusd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

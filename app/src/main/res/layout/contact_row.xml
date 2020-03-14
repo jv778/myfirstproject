@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/card_in_contact"
+            android:layout_width="388dp"
+            android:layout_height="match_parent"
+            android:padding="14dp">
+
+            <TextView
+                android:id="@+id/Job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Job title"
+                android:textSize="25sp"
+                android:textColor="@color/orange"
+                android:fontFamily="@font/abril_fatface"/>
+
+            <TextView
+                android:id="@+id/Provider_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Job_title"
+                android:fontFamily="sans-serif-black"
+                android:padding="8dp"
+                android:text="Job Provider information"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_more"
+                android:layout_below="@+id/Provider_info"
+                android:text="View More..."
+                android:padding="8dp"
+                android:textSize="16sp"/>
+
+            <ImageButton
+                android:id="@+id/location_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/location_button1" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
